@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  PersonsViewController.h
 //  My Favorite Color
 //
 //  Created by Sabbir Ahmed on 10/16/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface PersonsViewController : UIViewController
 
 @end
-

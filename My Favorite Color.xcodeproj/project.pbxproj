@@ -7,21 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C14A93D1DB38637004075F3 /* PersonsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C14A93C1DB38637004075F3 /* PersonsViewController.m */; };
+		8C14A9401DB396CE004075F3 /* FavoriteColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C14A93F1DB396CE004075F3 /* FavoriteColor.m */; };
+		8C14A9431DB39A64004075F3 /* ColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C14A9421DB39A64004075F3 /* ColorViewController.m */; };
 		8C509E8E1DB3605900A0BD21 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C509E8D1DB3605900A0BD21 /* main.m */; };
 		8C509E911DB3605900A0BD21 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C509E901DB3605900A0BD21 /* AppDelegate.m */; };
-		8C509E941DB3605900A0BD21 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C509E931DB3605900A0BD21 /* ViewController.m */; };
 		8C509E971DB3605900A0BD21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C509E951DB3605900A0BD21 /* Main.storyboard */; };
 		8C509E991DB3605900A0BD21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C509E981DB3605900A0BD21 /* Assets.xcassets */; };
 		8C509E9C1DB3605900A0BD21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C509E9A1DB3605900A0BD21 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8C14A93B1DB38637004075F3 /* PersonsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonsViewController.h; sourceTree = "<group>"; };
+		8C14A93C1DB38637004075F3 /* PersonsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonsViewController.m; sourceTree = "<group>"; };
+		8C14A93E1DB396CE004075F3 /* FavoriteColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoriteColor.h; sourceTree = "<group>"; };
+		8C14A93F1DB396CE004075F3 /* FavoriteColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoriteColor.m; sourceTree = "<group>"; };
+		8C14A9411DB39A64004075F3 /* ColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorViewController.h; sourceTree = "<group>"; };
+		8C14A9421DB39A64004075F3 /* ColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorViewController.m; sourceTree = "<group>"; };
 		8C509E891DB3605900A0BD21 /* My Favorite Color.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Favorite Color.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C509E8D1DB3605900A0BD21 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8C509E8F1DB3605900A0BD21 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8C509E901DB3605900A0BD21 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8C509E921DB3605900A0BD21 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8C509E931DB3605900A0BD21 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8C509E961DB3605900A0BD21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8C509E981DB3605900A0BD21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C509E9B1DB3605900A0BD21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,14 +64,13 @@
 		8C509E8B1DB3605900A0BD21 /* My Favorite Color */ = {
 			isa = PBXGroup;
 			children = (
-				8C509E8F1DB3605900A0BD21 /* AppDelegate.h */,
-				8C509E901DB3605900A0BD21 /* AppDelegate.m */,
-				8C509E921DB3605900A0BD21 /* ViewController.h */,
-				8C509E931DB3605900A0BD21 /* ViewController.m */,
+				8C14A93E1DB396CE004075F3 /* FavoriteColor.h */,
+				8C14A93F1DB396CE004075F3 /* FavoriteColor.m */,
+				8C14A93B1DB38637004075F3 /* PersonsViewController.h */,
+				8C14A93C1DB38637004075F3 /* PersonsViewController.m */,
+				8C14A9411DB39A64004075F3 /* ColorViewController.h */,
+				8C14A9421DB39A64004075F3 /* ColorViewController.m */,
 				8C509E951DB3605900A0BD21 /* Main.storyboard */,
-				8C509E981DB3605900A0BD21 /* Assets.xcassets */,
-				8C509E9A1DB3605900A0BD21 /* LaunchScreen.storyboard */,
-				8C509E9D1DB3605900A0BD21 /* Info.plist */,
 				8C509E8C1DB3605900A0BD21 /* Supporting Files */,
 			);
 			path = "My Favorite Color";
@@ -74,6 +79,11 @@
 		8C509E8C1DB3605900A0BD21 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8C509E8F1DB3605900A0BD21 /* AppDelegate.h */,
+				8C509E901DB3605900A0BD21 /* AppDelegate.m */,
+				8C509E981DB3605900A0BD21 /* Assets.xcassets */,
+				8C509E9A1DB3605900A0BD21 /* LaunchScreen.storyboard */,
+				8C509E9D1DB3605900A0BD21 /* Info.plist */,
 				8C509E8D1DB3605900A0BD21 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -150,7 +160,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C509E941DB3605900A0BD21 /* ViewController.m in Sources */,
+				8C14A93D1DB38637004075F3 /* PersonsViewController.m in Sources */,
+				8C14A9431DB39A64004075F3 /* ColorViewController.m in Sources */,
+				8C14A9401DB396CE004075F3 /* FavoriteColor.m in Sources */,
 				8C509E911DB3605900A0BD21 /* AppDelegate.m in Sources */,
 				8C509E8E1DB3605900A0BD21 /* main.m in Sources */,
 			);
@@ -309,6 +321,7 @@
 				8C509EA21DB3605900A0BD21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
